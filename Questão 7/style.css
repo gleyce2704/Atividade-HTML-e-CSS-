@@ -1,0 +1,22 @@
+.formulario {
+    background-image: url(./assets/lua.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+label {
+    color: white;
+}
+
+button {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: red; 
+}

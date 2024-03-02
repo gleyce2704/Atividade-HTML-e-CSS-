@@ -1,0 +1,66 @@
+body {
+    font-family: "Noticia Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 7px 7px 13px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.preco {
+    font-weight: bold;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.botao-comprar {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-comprar:hover {
+    background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.list {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.list li {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.list li:first-child {
+    background-color: greenyellow;
+    color: red;
+}
+
+.list li:last-child {
+    background-color: orange;
+    border: none;
+}

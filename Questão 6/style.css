@@ -1,0 +1,24 @@
+.tabela {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+.tabela th {
+    background-color: green;
+    color: red;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.l1 :last-child {
+    background-color: violet;
+}
+
+.l2 :last-child {
+    background-color: violet;
+}
+
+.l3 :last-child {
+    background-color: violet;
+}

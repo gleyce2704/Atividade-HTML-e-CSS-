@@ -1,0 +1,18 @@
+.container {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.box1 img {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    padding: 10px;
+}
