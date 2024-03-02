@@ -97,22 +97,23 @@ Crie um card de produto responsivo usando apenas HTML e CSS. O card deve
 ter:
 
 • Estrutura:
-o Imagem do produto
-o Título do produto
-o Preço do produto
-o Botão "Comprar"
+
+- Imagem do produto
+- Título do produto
+- Preço do produto
+- Botão "Comprar"
 
 • Requisitos:
-o O card deve ter no máximo 300px de largura.
-o A imagem do produto deve ter 200px de largura e altura.
-o O título e o preço do produto devem ser exibidos em negrito.
-o O botão "Comprar" deve ter uma cor de fundo diferente do restante
+- O card deve ter no máximo 300px de largura.
+- A imagem do produto deve ter 200px de largura e altura.
+- O título e o preço do produto devem ser exibidos em negrito.
+- O botão "Comprar" deve ter uma cor de fundo diferente do restante
 do card.
-o O card deve ser responsivo e se adaptar a diferentes tamanhos de
+- O card deve ser responsivo e se adaptar a diferentes tamanhos de
 tela.
 
 • Dicas:
-o Use flexbox para organizar o layout do card.
-o Utilize media queries para ajustar o layout em telas menores.
-o Explore pseudo-classes como :hover para adicionar interatividade
+- Use flexbox para organizar o layout do card.
+- Utilize media queries para ajustar o layout em telas menores.
+- Explore pseudo-classes como :hover para adicionar interatividade
 ao botão.
